@@ -1,9 +1,14 @@
+:root{
+  --text-color: #f0ff1b;
+}
+
+
 .bg-image{
   background-image: url(./Pictures/outdoor.png);
   background-size: cover;
   background-position: center;
   min-height: 35vh;
-  color: #c8ff00;
+  color: var(--text-color);
 }
 
 
@@ -21,5 +26,18 @@
 
 .mt-6{
   margin-top: 6rem;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.b-left{
+  border-left: 5px solid var(--text-color) ;
+}
+
+.lg-back{
+  background-color: rgba(128, 128, 128, 0.5);
+  text-shadow: 1px 1px black;
 }
 
