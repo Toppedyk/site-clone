@@ -2,6 +2,17 @@
   --text-color: #f0ff1b;
 }
 
+@keyframes change {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+.my-animation{
+  animation-name: change;
+  animation-duration: 8s
+}
 
 .bg-image{
   background-image: url(./Pictures/outdoor.png);
